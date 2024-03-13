@@ -1,0 +1,52 @@
+[
+  {
+    "id": 1,
+    "cover_image": "https://i.ibb.co/51XDjFf/nice-business-desk-black-background.jpg",
+    "title": "The Art of Programming",
+    "author": "John Doe",
+    "author_image": "https://i.ibb.co/Wp5ZyZG/windows-241bw-Ql2u-WE-unsplash.jpg",
+    "posted_date": "2024-03-12",
+    "reading_time": 10,
+    "hashtags": ["programming", "coding", "development"]
+  },
+  {
+    "id": 2,
+    "cover_image": "https://i.ibb.co/wQDB73z/flat-lay-workstation-with-copy-space-laptop.jpg",
+    "title": "Exploring the Universe",
+    "author": "Jane Smith",
+    "author_image": "https://i.ibb.co/ykzsxvs/marcos-paulo-prado-tcy-W6-Im5-Uug-unsplash.jpg",
+    "posted_date": "2024-03-10",
+    "reading_time": 15,
+    "hashtags": ["space", "astronomy", "science"]
+  },
+  {
+    "id": 3,
+    "cover_image": "https://i.ibb.co/jGQgZ7k/1.jpg",
+    "title": "Healthy Eating Habits",
+    "author": "Emily Johnson",
+    "author_image": "https://i.ibb.co/nj7DcbW/brad-neathery-Xr-Szacd-Ybt-Q-unsplash.jpg",
+    "posted_date": "2024-03-08",
+    "reading_time": 12,
+    "hashtags": ["health", "nutrition", "food"]
+  },
+  {
+    "id": 4,
+    "cover_image": "https://i.ibb.co/RjHrfPk/aaron-burden-x-G8-IQMq-MITM-unsplash.jpg",
+    "title": "Effective Time Management",
+    "author": "Michael Brown",
+    "author_image": "https://i.ibb.co/tPjHszR/pradamas-gifarry-7-KMm-MCyn4s-Q-unsplash.jpg",
+    "posted_date": "2024-03-06",
+    "reading_time": 8,
+    "hashtags": ["productivity", "time management", "work"]
+  },
+  {
+    "id": 5,
+    "cover_image": "https://i.ibb.co/K9xMHk1/lukas-blazek-Gnvurw-Js-Ka-Y-unsplash.jpg",
+    "title": "The Power of Meditation",
+    "author": "Sophia Lee",
+    "author_image": "https://i.ibb.co/0Y5TZz9/sincerely-media-d-Gx-Oge-XAXm8-unsplash.jpg",
+    "posted_date": "2024-03-04",
+    "reading_time": 20,
+    "hashtags": ["meditation", "mindfulness", "wellness"]
+  }
+]
