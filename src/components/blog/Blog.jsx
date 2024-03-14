@@ -1,9 +1,11 @@
 import PropTypes from 'prop-types';
 import { CiBookmark } from "react-icons/ci";
 const Blog = ({blog,handleAddToBookmarks,handleMarkAsRead}) => {
-    console.log(blog)
-    const { title, cover, author, author_img, reading_time, posted_date,hashtags } =
+    // console.log(blog)
+    const {id, title, cover, author, author_img, reading_time, posted_date,hashtags } =
       blog;
+      // console.log(id)
+
     //  const [a,b,c]=hashtags;
     return (
       <div className="my-10">
@@ -41,7 +43,7 @@ const Blog = ({blog,handleAddToBookmarks,handleMarkAsRead}) => {
           ))}
         </p>
         <br />
-        <button onClick={()=>{handleMarkAsRead(reading_time)}} className='text-purple-800 font-bold underline'>Mark as Read</button>
+        <button onClick={()=>{handleMarkAsRead(reading_time,id)}} className='text-purple-800 font-bold underline'>Mark as Read</button>
       </div>
     );
 };
