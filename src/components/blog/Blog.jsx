@@ -6,7 +6,7 @@ const Blog = ({blog,handleAddToBookmarks}) => {
       blog;
     //  const [a,b,c]=hashtags;
     return (
-      <div className="mb-20">
+      <div className="my-10">
         <img
           className="h-[450px] w-[845px]"
           src={cover}
@@ -26,7 +26,7 @@ const Blog = ({blog,handleAddToBookmarks}) => {
           </div>
           <div className="flex  mr-3 items-center gap-2">
             <span>{reading_time} min read</span>
-            <button onClick={handleAddToBookmarks}>
+            <button onClick={()=>handleAddToBookmarks(blog)}>
               < CiBookmark />
             </button>
           </div>
@@ -38,10 +38,13 @@ const Blog = ({blog,handleAddToBookmarks}) => {
             <a href="">#{hash}</a>
           </span>
         ))}
+        <br />
+        <button>Mark as read</button>
       </div>
     );
 };
 Blog.propTypes={
-    blog: PropTypes.object.isRequired
+    blog: PropTypes.object.isRequired,
+    handleAddToBookmarks: PropTypes.func.isRequired
 };
 export default Blog;
